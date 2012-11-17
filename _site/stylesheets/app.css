@@ -1,0 +1,279 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+	background: #eee;
+  font-family: "museo-slab",serif;
+  color: #333333;
+}
+
+p {
+  font-family: "chaparral-pro",sans-serif;
+  font-size: 1.2em;
+}
+
+small {
+  font-size: 0.9em;
+  font-family: "proxima-nova",sans-serif;
+}
+
+hr {
+  margin-top: 0;
+}
+
+
+/* -----------------------------------------
+   Header
+----------------------------------------- */
+
+.header {
+  background: rgba(238, 238, 238, 1.0);
+}
+
+.header h2 {
+  float: left;
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 700;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.header h2:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.7;
+}
+
+.header h2 img {
+  padding: 0px 8px 0 0;
+}
+
+.header h2 span {
+  position: relative;
+  bottom: 3px;
+}
+
+.header a {
+  color: #444;
+}
+
+.header ul {
+  float: right;
+  list-style: none;
+  margin: 18px 0 0 0;
+}
+
+.header li {
+  font-size: 1.2em;
+  float: left;
+  font-weight: bold;
+  padding: 4px;
+  margin: 0 0 0 18px;
+  font-family: "museo-slab",serif;
+  text-transform: uppercase;
+}
+
+/* -----------------------------------------
+   Footer
+----------------------------------------- */
+
+.footer {
+  margin-top: 32px;
+  padding-bottom: 24px;
+}
+
+
+/* -----------------------------------------
+   Home Page
+----------------------------------------- */
+
+.banner {
+  background: rgba(216, 82, 25, 1.0);
+  background: url(http://f.cl.ly/items/3Y0N093F2C2u1T0g443C/banner-bg2.jpg);
+  color: #ffffff;
+  height: 281px;
+}
+
+.banner h2 {
+  font-size: 5.0em;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "proxima-nova",sans-serif;
+  margin: 90px 0 0px 0;
+  line-height: 1.0em;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.banner h5 {
+  font-size: 1.3em;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: "ff-meta-serif-web-pro",serif;
+  color: #ffffff;
+  margin: 12px 0 90px 0;
+  text-shadow: 0px 0px 3px #000;
+}
+
+p.statement {
+  text-align: center;
+  margin: 32px 0 16px 0;
+  padding: 6px 12px;
+  background: #DCDCDC;
+  border: 1px solid #D2D2D2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.points {
+  margin: 16px auto;
+}
+
+.points h3 {
+  text-transform: uppercase;
+}
+
+.viddler {
+  width: 209px;
+  height: 76px;
+  display: block;
+  margin: 45px auto;
+  opacity: 0.7; 
+  cursor: pointer;
+  transition: all 0.3s 0 ease;
+  -moz-transition: all 0.3s 0 ease;
+  -webkit-transition: all 0.3s 0 ease;
+  -o-transition: all 0.3s 0 ease;
+}
+
+.viddler:hover {
+  opacity: 1;
+}
+
+
+/* -----------------------------------------
+   Blog
+----------------------------------------- */
+
+.post {
+  padding: 16px 0;
+  border-bottom: 1px dashed #a0a0a0;
+  display: inline-block;
+}
+
+.post h3 {
+  margin-bottom: 6px;
+}
+
+.post span {
+  color: #666666;
+  font-size: 1.0em;
+}
+
+.btn.readmore {
+  background: #4B9ABE;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 1.3em;
+  border: 1px solid #4184A3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.pagination {
+  padding: 32px 0 0 0;
+}
+
+/* -----------------------------------------
+   Contact
+----------------------------------------- */
+
+.contact-list div a {
+  height: 260px;
+  margin-bottom: 28px;
+  display: block;
+  background: #999999;
+  cursor: pointer;
+  transition: all 0.3s 0 ease;
+  -moz-transition: all 0.3s 0 ease;
+  -webkit-transition: all 0.3s 0 ease;
+  -o-transition: all 0.3s 0 ease;
+}
+
+.contact-list img {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  left: 50%;
+  top: 45%; 
+  margin-left: -67.5px;
+  margin-top: -67px;
+  opacity: 0.7;
+}
+
+.contact-list a.twitter:hover {
+  background: rgba(41, 164, 224, 1.0);
+}
+
+.contact-list .dribbble:hover {
+  background: rgba(207, 113, 153, 1.0);
+}
+
+.contact-list .linkedin:hover {
+  background: rgba(52, 138, 198, 1.0);
+}
+
+.contact-list .github:hover {
+  background: rgba(109, 226, 255, 1.0);
+}
+
+.contact-list .instagram:hover {
+  background: rgba(166, 125, 92, 1.0);
+}
+
+.contact-list .skype:hover {
+  background: rgba(42, 187, 248, 1.0);
+}
+
+.contact-list .spotify:hover {
+  background: rgba(144, 184, 0, 1.0);
+}
+
+
+/* -----------------------------------------
+   About
+----------------------------------------- */
+
+.section-header {
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 3.5em;
+  margin: 0 0 8px 0;
+}
+
+.section-header span {
+  font-size: 1.3em;
+}
