@@ -168,6 +168,9 @@ p.statement {
   opacity: 1;
 }
 
+
+/* Home page portfolio */
+
 ul#portfolio {
   list-style: none;
 }
@@ -178,9 +181,11 @@ ul#portfolio li {
   padding: 0;
 }
 
-ul#portfolio li img {
-  border: 1px solid #e5e5e5;
+ul#portfolio li a img {
+  /*border: 1px solid #e5e5e5;*/
 }
+
+/* What am I up too?  */
 
 .uptoo {
   background: #333333;
