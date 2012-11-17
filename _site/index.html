@@ -19,8 +19,8 @@
   -->
   
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="/stylesheets/app.css">
 
   <!-- Typkit -->
   <script type="text/javascript" src="//use.typekit.net/sti4yod.js"></script>
@@ -58,7 +58,7 @@
   <div class="row">
     <div class="twelve columns">
       <h2><a href="/">
-        <img src="images/logo.png" alt="Call Me Aaron">
+        <img src="/images/logo.png" alt="Call Me Aaron">
         <span>Aaron White</span></a>
       </h2>
       <ul>
@@ -102,13 +102,22 @@
 
 <div class="row">
   <hr>
-  <div class="six columns">
-    <h4>What I'm up to</h4>
-    <p>I am the lead designer at <a href="http://viddler.com">Viddler</a>.  I work remotely from Bloomington, IN.  My Co-workers are the most talented, awesome group of people I've ever worked with and I couldn't be happier.</p>
+  <div class="twelve columns">
+  	<h4>Recent Work</h4>
+    <ul id="portfolio"></ul>
   </div>
-  <div class="six columns">
-    <a href="http://viddler.com"><img class="viddler" src="images/viddler.png" alt="viddler" target="_blank" ></a>
-  </div>
+</div>
+
+<div class="uptoo">
+	<div class="row">
+		<div class="six columns">
+	    <h4>What I'm up to</h4>
+	    <p>I word with an awesome group of people at <a href="http://viddler.com">Viddler</a> as the lead designer.  I work remotely from Bloomington, IN.</p>
+	  </div>
+	  <div class="six columns">
+	  	<a href="http://viddler.com"><img class="viddler" src="images/viddler.png" alt="viddler" target="_blank" ></a>
+	  </div>
+	</div>
 </div>
 
   <div class="footer">
@@ -164,6 +173,7 @@
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
   <script src="javascripts/jquery.stellar.min.js"></script>
+  <script src="javascripts/jquery.jribbble-1.0.0.ugly.js"></script>
 
   <script type="text/javascript">
     jQuery(document).ready(function ($) {
@@ -173,6 +183,20 @@
         horizontalOffset: 0,
         verticalOffset: 0
       });
+
+      $.jribbble.getShotsByPlayerId('internetaaron', function (playerShots) {
+        var html = [];
+    
+        $.each(playerShots.shots, function (i, shot) {
+            html.push('<li><a href="' + shot.url + '">');
+            html.push('<img src="' + shot.image_teaser_url + '" ');
+            html.push('alt="' + shot.title + '"></a></li>');
+        });
+    
+        $('#portfolio').html(html.join(''));
+    }, {page: 1, per_page: 4});
+
+
     });
   </script>  
 </body>

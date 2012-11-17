@@ -153,10 +153,9 @@ p.statement {
 }
 
 .viddler {
-  width: 209px;
-  height: 76px;
+  width: 175px;
   display: block;
-  margin: 45px auto;
+  margin: 25px auto;
   opacity: 0.7; 
   cursor: pointer;
   transition: all 0.3s 0 ease;
@@ -167,6 +166,33 @@ p.statement {
 
 .viddler:hover {
   opacity: 1;
+}
+
+ul#portfolio {
+  list-style: none;
+}
+
+ul#portfolio li {
+  display: inline-block;
+  margin: 0.91em;
+  padding: 0;
+}
+
+ul#portfolio li img {
+  border: 1px solid #e5e5e5;
+}
+
+.uptoo {
+  background: #333333;
+  color: #e7e7e7
+}
+
+.uptoo h4 {
+  margin-bottom: 8px;
+}
+
+.uptoo p {
+  line-height: 1.2em;
 }
 
 
