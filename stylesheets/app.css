@@ -23,6 +23,10 @@ p {
   font-size: 1.2em;
 }
 
+a {
+  color: rgba(41, 179, 208, 1.0);
+}
+
 small {
   font-size: 0.9em;
   font-family: "proxima-nova",sans-serif;
@@ -39,6 +43,7 @@ hr {
 
 .header {
   background: rgba(238, 238, 238, 1.0);
+  border-bottom: 7px solid rgba(41, 179, 208, 1.0);
 }
 
 .header h2 {
