@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working Remote has changed my life
+title: Working Remote changed my life
 date: January 8, 2013
 ---
 
