@@ -4,7 +4,7 @@
  <title>Call Me Aaron</title>
  <link href="http://callmeaaron.com/feed.xml" rel="self"/>
  <link href="http://callmeaaron.com"/>
- <updated>2012-11-21T08:07:56-05:00</updated>
+ <updated>2013-01-07T14:55:50-05:00</updated>
  <id>http://callmeaaron.com</id>
  <author>
    <name>Edward Hyde</name>
@@ -27,7 +27,7 @@
 
 &lt;h4&gt;What I like about this change&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;Secure and fast&lt;/strong&gt; &amp;ndash; With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you&amp;rsquo;re WP instance isn&amp;rsquo;t upgraded to the most recent version it&amp;rsquo;s susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the morst recent version.  It goes on and on.  And let&amp;rsquo;s be real here, this is my personal site so it falls about last in the priority of work so it&amp;rsquo;s tough to keep track of all that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Secure and fast&lt;/strong&gt; &amp;ndash; With WordPress there are so many security risks.  It seems like I get spam comments on my WordPress site on a daily basis.  If you&amp;rsquo;re WP instance isn&amp;rsquo;t upgraded to the most recent version it&amp;rsquo;s susceptible to getting hacked.  There are also plugin dependencies based on what version you are on. So some plugins might not work on the most recent version.  It goes on and on.  And let&amp;rsquo;s be real here, this is my personal site so it falls about last in the priority of work so it&amp;rsquo;s tough to keep track of all that.&lt;/p&gt;
 
 &lt;p&gt;With Jekyll all of these issues are gone.  Jekyll is a blog-aware, static site generator in Ruby.  So basically it compiles the whole site locally with Ruby magic and serves your static HTML site.  So the only thing you ever push to your server is the static site.&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 &lt;p&gt;One last note is that as easy as Jekyll was for me, some designers might not love it as it does require you to use Terminal.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Warning! Warning! I&amp;rsquo;m about to have a soapbox moment&lt;/strong&gt; &amp;ndash;
-Most &amp;ldquo;designers&amp;rdquo; will probably imediatly run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn&amp;rsquo;t an app with a beautiful UI for something, a designer shouldn&amp;rsquo;t touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I&amp;rsquo;d encourage you to give it a go.  It will allow you to create and contribute to things that you simple can&amp;rsquo;t without it.&lt;/p&gt;
+Most &amp;ldquo;designers&amp;rdquo; will probably immediately run from Jekyll because the first thing you have to do is open Terminal.  I used to be just like that.  I thought if there wasn&amp;rsquo;t an app with a beautiful UI for something, a designer shouldn&amp;rsquo;t touch it.  But using Terminal opens so many doors. Knowing the simplest commands allows you to do so many awesome things.  I&amp;rsquo;d encourage you to give it a go.  It will allow you to create and contribute to things that you simple can&amp;rsquo;t without it.&lt;/p&gt;
 
 &lt;p&gt;Just remember to learn, try and build.  &lt;strong&gt;Learning&lt;/strong&gt; and &lt;strong&gt;trying&lt;/strong&gt; Terminal will allow you to &lt;strong&gt;build&lt;/strong&gt; things you couldn&amp;rsquo;t before.  And that&amp;rsquo;s what it&amp;rsquo;s all about.&lt;/p&gt;
 </content>
