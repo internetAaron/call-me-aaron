@@ -1,8 +1,8 @@
-#Working Remote is the Bomb
+##Working Remote is the Bomb
 
 A year and a half ago I left my corporate job and some how managed to get a solid raise and maintain amazing benefits.  After a year at that company it was time for me to leave and I managed to find another amazing job with amazing benefits.  This time it was with a high profile tech company working with some amazing people.  But probably the most amazing part of this time after leaving my corporate job was that I was able to stayed in my home town that I love so dearly.
 
-##This is why I think remote working is the bomb.
+###This is why I think remote working is the bomb.
 
 Searching Authentic jobs, dribble and others I'm consistently amazed at the remote oportunites that are available.  I feel so lucky to be living in this time where I can do what I love and work for conceivably any company.  This type of oportunity has only been possible in the past few years.
 
@@ -20,7 +20,7 @@ Basecamp is one of my all in one favorites.  There are a lot of haters here and 
 
 There are so many tools for remote workers I should write a list of tools that are usefull for remote workers.  Infact I'll put that on the todo list now.
 
-##Moving Forward
+###Moving Forward
 
 The only thing that I want to change about my remote working experience is my working situation.  Curently I work alone.  By myself.  Solo. ZZZZZZZZZZ
 
