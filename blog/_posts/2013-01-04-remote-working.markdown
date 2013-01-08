@@ -27,6 +27,9 @@ There are so many tools for remote workers I should write a list of tools that a
 
 #####Moving Forward
 
-The only thing that I want to change about my remote working experience is my working situation.  Curently I work alone.  By myself.  Solo. ZZZZZZZZZZ
+The only thing that I want to change about my remote working experience is my working situation.  Curently I work alone.  By myself.  Solo.
 
-Whoops, sorry about that.  You get the point.  So to fix this, myself and a buddy are heading up a coworking space.  It's not even open yet and it's been one of the most fullfilling things I've done since I started working remote.  I look forward to sharing how this goes.
+I've known the solution for this for a long time but until recently it just wasn't a possibility.  But in the past couple months things have been coming together and a buddy and I are heading up a coworking space.  It's not even open yet and it's already been one of the most fullfilling things I've done since I started working remote.  I look forward to sharing how this goes.
+
+#####Conclusion
+Remote working has allowed me to grow in ways that I never thought possible while staying in a place I love and remaining close to family and friends.  Sure, I could move to California, New York or any of the hot spots and get a job pretty quickly.  But I love Bloomington, Indiana and I'll stay here as long as I can.  Hopefully until the day I die.
