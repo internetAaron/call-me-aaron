@@ -1,7 +1,7 @@
 ---
 layout: post
-title: New Site
-date: November 8, 2012
+title: Working Remote is the Bomb
+date: January 8, 2013
 ---
 
 ####Working Remote is the Bomb
