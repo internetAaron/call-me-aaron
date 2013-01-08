@@ -1,3 +1,9 @@
+---
+layout: post
+title: New Site
+date: November 8, 2012
+---
+
 ####Working Remote is the Bomb
 
 A year and a half ago I left my corporate job and some how managed to get a solid raise and maintain amazing benefits.  After a year at that company it was time for me to leave and I managed to find another amazing job with amazing benefits.  This time it was with a high profile tech company working with some amazing people.  But probably the most amazing part of this time after leaving my corporate job was that I was able to stayed in my home town that I love so dearly.
