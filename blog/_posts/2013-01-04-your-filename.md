@@ -23,3 +23,11 @@ Skype is an amazing tool that has a great breath of features for free.  They als
 Wireframing tools are in no short supply.  Balsamiq lead the charge in this field but there are many others now.  Not sure any have nailed it home but there are plenty of options here.
 
 Basecamp is one of my all in one favorites.  There are a lot of haters here and in my experience if someone has had one bad experience with basecamp they hate it.  But when it's used to it's fullest it is amazing.
+
+There are so many tools for remote workers I should write a list of tools that are usefull for remote workers.  Infact I'll put that on the todo list now.
+
+Moving Forward
+-------------------------
+The only thing that I want to change about my remote working experience is my working situation.  Curently I work alone.  By myself.  Solo. ZZZZZZZZZZ
+
+Whoops, sorry about that.  You get the point.  So to fix this, myself and a buddy are heading up a coworking space.  It's not even open yet and it's been one of the most fullfilling things I've done since I started working remote.  I look forward to sharing how this goes.
