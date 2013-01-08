@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working Remote is da Bomb
+title: Working Remote has changed my life
 date: January 8, 2013
 ---
 
