@@ -23,7 +23,7 @@ Wireframing tools are in no short supply.  Balsamiq lead the charge in this fiel
 
 Basecamp is one of my all in one favorites.  There are a lot of haters here and in my experience if someone has had one bad experience with basecamp they hate it.  But when it's used to it's fullest it is amazing.
 
-There are so many tools for remote workers I should write a list of tools that are usefull for remote workers.  In fact I'll put that on the todo list now.
+There are so many tools for remote workers it's really not much different than being in the office with everyone else.
 
 #####Moving Forward
 
