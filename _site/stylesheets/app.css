@@ -313,3 +313,44 @@ ul#portfolio li a img {
 .section-header span {
   font-size: 1.3em;
 }
+
+/* -----------------------------------------
+   Projects
+----------------------------------------- */
+.project {
+  margin-bottom: 3.0em;
+}
+
+article.details {
+  border-top: 1px solid #AAADAD;
+  color: #555555;
+}
+
+article.details h3 {
+  margin-bottom: 0.15em;
+  padding-bottom: 0;
+}
+
+article.details small {
+  margin-bottom: 1.5em;
+  display: block;
+  color: #888;
+}
+
+article.details p {
+  line-height: 1.3em;
+}
+
+article a.visit {
+  background: rgba(41, 179, 208, 1.0);
+  color: #ffffff;
+  padding: 0.4em 1.0em;
+  display: inline-block;
+  margin-bottom: 1.0em;
+  font-weight: bold;
+}
+
+article a.visit:hover {
+  background: rgb(35, 151, 182);
+}
+
