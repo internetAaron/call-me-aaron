@@ -322,7 +322,7 @@ ul#portfolio li a img {
 }
 
 article.details {
-  border-top: 1px solid #AAADAD;
+  border-top: 1px solid rgb(209, 209, 209);
   color: #555555;
 }
 
