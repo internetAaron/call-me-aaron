@@ -5099,19 +5099,35 @@ a.badge:hover {
 }
 html body {
   padding-top: 0;
+  color: #555555;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #555555;
 }
 a.contact {
-  margin: 1.5em 1.5em 0 0;
+  margin: 1.5em 5.5em 0 0;
 }
 div.marketing {
   background: #fefefe;
 }
+div.marketing p.marketing-byline {
+  color: #555555 !important;
+}
 div.about {
+  position: relative;
+  z-index: 10;
   padding: 3.0em 0;
   background: #fafafa;
   border-top: 1px solid #c9cacb;
   border-bottom: 1px dashed #c9cacb;
   text-align: left;
+  -webkit-box-shadow: 0px -3px 4px rgba(50, 50, 50, 0.13);
+  -moz-box-shadow: 0px -3px 4px rgba(50, 50, 50, 0.13);
+  box-shadow: 0px -3px 4px rgba(50, 50, 50, 0.13);
 }
 div.about h2 {
   margin-bottom: 0.75em;
@@ -5123,6 +5139,13 @@ div.about .border-r {
 div.about ul {
   list-style: none;
   margin: 0;
+}
+div.about ul a {
+  color: #555555;
+}
+div.about ul a:hover {
+  text-decoration: none;
+  color: #888888;
 }
 div.about ul li {
   margin-bottom: 2.0em;
