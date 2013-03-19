@@ -157,11 +157,10 @@ p.statement {
   text-transform: uppercase;
 }
 
-.viddler {
-  width: 175px;
+.uptoo-logo {
   display: block;
-  margin: 25px auto;
-  opacity: 0.7; 
+  margin: 25px 0;
+  opacity: 0.5; 
   cursor: pointer;
   transition: all 0.3s 0 ease;
   -moz-transition: all 0.3s 0 ease;
@@ -169,7 +168,7 @@ p.statement {
   -o-transition: all 0.3s 0 ease;
 }
 
-.viddler:hover {
+.uptoo-logo:hover {
   opacity: 1;
 }
 
