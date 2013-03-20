@@ -4,13 +4,36 @@
  <title>Call Me Aaron</title>
  <link href="http://callmeaaron.com/feed.xml" rel="self"/>
  <link href="http://callmeaaron.com"/>
- <updated>2013-03-20T00:54:20-04:00</updated>
+ <updated>2013-03-20T01:25:40-04:00</updated>
  <id>http://callmeaaron.com</id>
  <author>
    <name>Edward Hyde</name>
    <email>fake@mijingo.com</email>
  </author>
 
+ 
+  <entry>
+    <title>Learn / Try / Build</title>
+    <link href="http://callmeaaron.com/blog/2013/03/20/learn-try-build.html"/>
+    <updated>2013-03-20T00:00:00-04:00</updated>
+    <id>http://callmeaaron.com/blog/2013/03/20/learn-try-build</id>
+    <content type="html">&lt;h4&gt;Never stop learning, try new things and build stuff&lt;/h4&gt;
+
+&lt;p&gt;This has been my personal mantra most of my life.  Employing this in my design and development career has caused me to grow and advance in ways I could have never imagined.&lt;/p&gt;
+
+&lt;h4&gt;Learn&lt;/h4&gt;
+
+&lt;p&gt;The need to learn is part of our human nature.  If we stop learning, we stop living.  This is ever so true in the world of design and development.  Never stop learning.  Never.&lt;/p&gt;
+
+&lt;h4&gt;Try&lt;/h4&gt;
+
+&lt;p&gt;I&amp;rsquo;ve often wondered what my true passion was as I often have a exciting and new hobby.  Recently I realized my passion is trying new things, in life and in design.&lt;/p&gt;
+
+&lt;h4&gt;Build&lt;/h4&gt;
+
+&lt;p&gt;Last, but most definitely the most important.  Just build.  By creating things you will be force you to learn and try new things that will advance you further than anything.  Just build stuff!&lt;/p&gt;
+</content>
+  </entry>
  
   <entry>
     <title>Working Remote changed my life</title>

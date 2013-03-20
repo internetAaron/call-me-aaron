@@ -33,10 +33,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-  <script type="text/javascript">
+   <script type="text/javascript">
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-1847571-17']);
@@ -70,58 +67,55 @@
   </div>
 </div>
 
-  <div class="banner" data-stellar-background-ratio="0.5">
-	<div class="row">
-		<div class="twelve columns" data-stellar-ratio="1.5" data-stellar-vertical-offset="130" data-stellar-horizontal-offset="300">
-      <h2>I'm Aaron, a builder</h2>
-			<h5>of websites, web apps, coworking space, wood working...</h2>
-	  </div>
-  </div>
-</div>
-
-<!-- <div class="row">
+  <div class="row">
   <div class="twelve columns">
-    <p class="statement">This has been my personal mantra most of my life.  Employing this in my design and development career has caused me to grow and advance in ways I could have never imagined.</p>
-  </div>
-</div> -->
-
-<div class="row points">
-  <div class="four columns">
-    <h3>Designer</h3>
-    <p>I am a designer who loves solving problems. I believe in user focused design and interfaces that are fun and easy to use. I love working each element on the screen to a pixel perfect design and then taking that and putting it into smart, rock solid markup.</p>
-  </div>
-  <div class="four columns">
-    <h3>Developer</h3>
-    <p>I'm a solid front-end developer who's been working with developers in Ruby on Rails and other MVC frameworks for over five years.  I excel at rapid prototyping and iterative development specializing in HTML/CSS/JS. </p>
-  </div>
-  <div class="four columns">
-    <h3>Builder</h3>
-    <p>I like to call myself a builder.  No matter what I need, weather it's a new feature in an app that requires a new technology that I need to learn, or a <a href="http://instagram.com/p/WlAOkGkn0c/">desk for a coworking space</a>, I find a way to build it.</p>
+    <hr>
   </div>
 </div>
 
-<div class="row">
-  <hr>
-  <div class="twelve columns">
-  	<h4>Recent Work</h4>
-    <ul id="portfolio"></ul>
-  </div>
-</div>
 
-<div class="uptoo">
-	<div class="row">
-		<div class="six columns">
-	    <h4>What I'm up to</h4>
-	    <p>I word with an awesome group of people at <a href="http://viddler.com">Viddler</a> as the lead designer.  I work remotely from Bloomington, IN.</p>
-      <p><a href="http://viddler.com"><img class="uptoo-logo" src="images/viddler.png" alt="viddler" target="_blank" ></a></p>
-	  </div>
-	  <div class="six columns">
-	  	<h4>Latest side project</h4>
-      <p>I recently co-founded <a href="http://coworkbtown.com">Cowork Btown</a> in Bloomington, IN.  It's been an unbelievably rewarding project.</p>
-      <p><a href="http://coworkbtown.com"><img class="uptoo-logo" src="images/cowork-btown.png" alt="Cowork Btown" target="_blank" ></a></p>
-	  </div>
-	</div>
-</div>
+  <div class="row">
+    <div class="post">
+      <div class="four columns">
+        <h3><a href="/blog/2012/05/12/style-tiles.html">Early Stage Styling Done Just Right</a></h3>
+        <span>12 May 2012</span>
+      </div>
+      <div class="eight columns">
+        <p><p> Many times stakeholders or clients are more concerned with logos, colors and fonts. When the main focus of the design process should be on workflows, content and wireframes they are more concerned with the look and feel.</p> <p>Most often you’ll go ahead and open photoshop and style the crap...</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="twelve columns">
+      <div class="pagination">
+        <p>
+          
+            
+              <a href="/blog/" class="previous">Previous</a>
+            
+          
+            <span class="page_number">Page: 2 of 2</span>
+          
+            <span class="next">Next</span>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <!-- <div class="four columns">
+    <h4>Recent Writings</h4>
+    <p>From the archives of this journal:</p>
+    <ul class="disc">
+      
+      <li><a href="/blog/2012/05/12/style-tiles.html">Early Stage Styling Done Just Right</a></li>
+      
+    </ul>
+  </div> -->
+</div>  
 
   <div class="footer">
   <div class="row">
@@ -175,32 +169,5 @@
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
-  <script src="javascripts/jquery.stellar.min.js"></script>
-  <script src="javascripts/jquery.jribbble-1.0.0.ugly.js"></script>
-
-  <script type="text/javascript">
-    jQuery(document).ready(function ($) {
-      $(window).stellar();
-
-      $.stellar({
-        horizontalOffset: 0,
-        verticalOffset: 0
-      });
-
-      $.jribbble.getShotsByPlayerId('internetaaron', function (playerShots) {
-        var html = [];
-    
-        $.each(playerShots.shots, function (i, shot) {
-            html.push('<li><a href="' + shot.url + '">');
-            html.push('<img src="' + shot.image_teaser_url + '" ');
-            html.push('alt="' + shot.title + '"></a></li>');
-        });
-    
-        $('#portfolio').html(html.join(''));
-    }, {page: 1, per_page: 4});
-
-
-    });
-  </script>  
 </body>
 </html>
