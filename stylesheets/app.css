@@ -36,6 +36,17 @@ hr {
   margin-top: 0;
 }
 
+.clearfix {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+}
+
+hgroup p {
+  position: relative;
+  top: 17px;
+}
+
 
 /* -----------------------------------------
    Header
