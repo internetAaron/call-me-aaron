@@ -188,16 +188,31 @@ p.statement {
 
 ul#portfolio {
   list-style: none;
+  margin-bottom: 1.5em;
+  display: inline-block;
 }
 
 ul#portfolio li {
-  display: inline-block;
-  margin: 0.91em;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.3%;
+}
+
+ul#portfolio li a {
+  display: block;
+  margin: 0;
   padding: 0;
 }
 
 ul#portfolio li a img {
-  /*border: 1px solid #e5e5e5;*/
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s; /* Safari */
+}
+
+ul#portfolio li a img:hover {
+  opacity: 0.6;
 }
 
 /* What am I up too?  */
