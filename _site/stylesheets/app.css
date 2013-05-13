@@ -125,6 +125,11 @@ hgroup p {
   height: 281px;
 }
 
+.banner .banner-txt {
+  display: table;
+  margin: 0 auto;
+}
+
 .banner h2 {
   font-size: 5.0em;
   font-weight: 700;
