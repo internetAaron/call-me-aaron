@@ -103,13 +103,11 @@
 
 <div class="row">
   <hr>
-  <div class="twelve columns">
-  	<hgroup class="clearfix">
-      <h4 class="left">Recent Work</h4>
-      <p class="right"><a href="/projects.html">view all</a></p>
-    </hgroup>
-    <ul id="portfolio"></ul>
-  </div>
+	<hgroup class="clearfix">
+    <h4 class="left">Recent Work</h4>
+    <p class="right"><a href="/projects.html">view all</a></p>
+  </hgroup>
+  <div id="portfolio"></div>
 </div>
 
 <div class="uptoo">
@@ -195,9 +193,9 @@
         var html = [];
     
         $.each(playerShots.shots, function (i, shot) {
-            html.push('<li><a href="' + shot.url + '">');
+            html.push('<section><a href="' + shot.url + '">');
             html.push('<img src="' + shot.image_url + '" ');
-            html.push('alt="' + shot.title + '"></a></li>');
+            html.push('alt="' + shot.title + '"></a></section>');
         });
     
         $('#portfolio').html(html.join(''));
