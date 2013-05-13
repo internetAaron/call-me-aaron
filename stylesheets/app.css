@@ -193,7 +193,7 @@ p.statement {
 
 #portfolio {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: -3px;
   position: relative;
 }
 
@@ -221,11 +221,28 @@ p.statement {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
-  height: 238px;
+  max-height: 100%;
 }
 
 #portfolio section a img:hover {
   opacity: 0.3;
+}
+
+@media all and (max-width: 960px) {
+  #portfolio section {
+    width: 50%;
+    height: 100%;
+  }
+
+  #portfolio section a {
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 460px) {
+  #portfolio section {
+    width: 100%;
+  }
 }
 
 /* What am I up too?  */
