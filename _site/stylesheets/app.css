@@ -249,7 +249,8 @@ p.statement {
 
 .uptoo {
   background: #333333;
-  color: #e7e7e7
+  color: #e7e7e7;
+  padding: 2.0em 0;
 }
 
 .uptoo h4 {
