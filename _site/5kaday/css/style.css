@@ -8555,9 +8555,28 @@ article img {
   clear: both;
 }
 .donate a {
-  display: inline-block;
-  float: right;
-  margin-right: 1.0em;
+  display: block;
+  font-size: 1.3em;
+  border-radius: 2px;
+  background: #7737A9;
+  background-image: -o-linear-gradient(-90deg, #7636a8 0%, #632d8d 100%);
+  background-image: -moz-linear-gradient(-90deg, #7636a8 0%, #632d8d 100%);
+  background-image: -webkit-linear-gradient(-90deg, #7636a8 0%, #632d8d 100%);
+  background-image: -ms-linear-gradient(-90deg, #7636a8 0%, #632d8d 100%);
+  background-image: linear-gradient(-180deg, #7636a8 0%, #632d8d 100%);
+}
+.donate a:hover {
+  background-image: -o-linear-gradient(-90deg, #622b8e 0%, #61288e 100%);
+  background-image: -moz-linear-gradient(-90deg, #622b8e 0%, #61288e 100%);
+  background-image: -webkit-linear-gradient(-90deg, #622b8e 0%, #61288e 100%);
+  background-image: -ms-linear-gradient(-90deg, #622b8e 0%, #61288e 100%);
+  background-image: linear-gradient(-180deg, #622b8e 0%, #61288e 100%);
+}
+.donate a img {
+  width: 1em;
+  position: relative;
+  bottom: 1px;
+  padding-right: 2px;
 }
 .donate small {
   display: inline-block;
