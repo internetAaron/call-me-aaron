@@ -9058,6 +9058,9 @@ iframe#twitter-widget-0 {
   .navbar .brand img {
     display: none;
   }
+  .navbar {
+    padding-top: 1em;
+  }
   .navbar h3 {
     text-align: center;
   }
