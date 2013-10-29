@@ -8942,6 +8942,17 @@ span.cbp-biprev:before {
 iframe#twitter-widget-0 {
   width: 100%;
 }
+.success {
+  background: #DCF5E5;
+  border: 1px solid #59C769;
+  padding: 1em;
+  margin: 1em 0;
+  box-sizing: border;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #2c8339;
+}
 @media (min-width: 1200px) and (min-height: 800px) {
   html {
     font-size: 18px;
