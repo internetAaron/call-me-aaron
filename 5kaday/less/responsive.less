@@ -302,3 +302,9 @@
 
 }
 
+/* This fixes the Mobile IE10 issue on WP8 devices running Update 3 or higher 
+    Phones running GDR2 or lower will have to (dealwithit)
+*/
+@-ms-viewport {
+	width: device-width;
+}
